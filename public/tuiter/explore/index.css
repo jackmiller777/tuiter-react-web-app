@@ -19,9 +19,7 @@ body { font-family: sans-serif; }
     margin-right: 12px;
     width: 425px;
 }
-#gear {
-    font-size: 30px;
-    text-decoration: none;
+.wd-gear {
     color: rgb(29,161,242);
 }
 
@@ -106,3 +104,32 @@ body { font-family: sans-serif; }
     color:white;
 }
 
+.wd-display-inline {
+    display: inline;
+}
+.wd-display-block {
+    display: block;
+}
+
+.wd-no-margins-padding {
+    margins: 0px;
+    padding: 0px;
+}
+.wd-margin-top-12 {
+    margin-top: 12px;
+}
+.wd-txt-bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+.wd-txt-left {
+    position: absolute;
+    left: 16px;
+    bottom: 12px;
+}
+.wd-no-top-border {
+    border-top: none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
