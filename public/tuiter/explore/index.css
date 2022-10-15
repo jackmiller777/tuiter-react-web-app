@@ -126,10 +126,19 @@ body { font-family: sans-serif; }
 .wd-txt-left {
     position: absolute;
     left: 16px;
-    bottom: 12px;
+    bottom: 10px;
 }
 .wd-no-top-border {
     border-top: none;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
+}
+.wd-h-w-5 {
+    height: 50px;
+    width: 50px;
+
+    min-height: 50px;
+    min-width: 50px;
+    max-height: 50px;
+    max-width: 50px;
 }
