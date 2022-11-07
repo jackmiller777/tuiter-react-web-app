@@ -1,2 +1,2 @@
-https://github.com/jackmiller777/tuiter-react-web-app
-https://a6--dynamic-peony-dd237e.netlify.app/tuiter/explore/index.html
+https://github.com/jemiller777/tuiter-react-web-app
+https://a7--dynamic-peony-dd237e.netlify.app/tuiter

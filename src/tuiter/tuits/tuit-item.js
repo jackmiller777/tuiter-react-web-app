@@ -22,6 +22,7 @@ const TuitItem = (
             <div className="row">
                 <div className="col-auto">
                     <img width={50}
+                         alt={"1"}
                          className="float-end rounded-circle"
                          src={`/images/${tuit.image}`}/>
                 </div>
