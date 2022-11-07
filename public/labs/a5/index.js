@@ -217,6 +217,40 @@ const init = () => {
     const getIdAttr = $("#get-id-attr");
     const id = getIdAttr.attr('id');
     console.log(id);
+
+
+
+    const x = {y: 22, z: 33};
+    const v = {z: 44, ...x};
+    const {z} = v;
+    console.log(z)
+
+    const a = {b: 21, c: 32};
+    const d = {...a, c: 43};
+    const e = [d, a];
+    const [f, j] = e;
+    console.log(f.c)
+
+
+    let A = {
+        C: 'F',
+        D: 'G'
+    }
+    let B = {
+        D: 'H',
+        E: 'I',
+        ...A,
+    }
+    A = {
+        ...B,
+        D: 'J',
+        E: 'K'
+    }
+    console.log(A.C)
+    console.log(B.D)
+    console.log(A.E)
+
+
 }
 $(init);
 
