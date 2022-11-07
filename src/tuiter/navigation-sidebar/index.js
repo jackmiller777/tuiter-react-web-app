@@ -7,6 +7,7 @@ const NavigationSidebar = () =>
     const {pathname} = useLocation();
     const paths = pathname.split('/')
     const active = paths[2];
+    console.log(active)
     return(
         <div>
             <div className="list-group">
@@ -16,7 +17,7 @@ const NavigationSidebar = () =>
 
                 <a className={`list-group-item
         ${active === 'home' || active === ''?'active':''}`}
-                   href="/tuiter">
+                   href="/tuiter/home">
                     <i className="fas fa-home"></i> Home</a>
                 <a className={`list-group-item
                     ${active === 'explore'?'active':''}`}
